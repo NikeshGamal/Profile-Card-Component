@@ -14,7 +14,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("./images/bg-pattern-top.svg"),url("./images/bg-pattern-bottom.svg");
     background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-size:54%;
+    background-position: -20% -14rem,115% 23rem;
 }
 
 main{
