@@ -1,0 +1,44 @@
+
+*{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    margin: 10em 0px;
+    width:90%;
+    max-width:315px;
+}
+
+.main_container .background{
+   height: 9em;
+}
+
+.background{
+  background:url("./images/bg-pattern-card.svg");
+}
+
+.background img{
+   position: relative;
+   top:6em;
+   left:6.3em;
+}
+
+.info .detailed_info li,.info li{
+   list-style: none;
+}
+
+.info .detail_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+
